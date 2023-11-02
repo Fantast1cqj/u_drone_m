@@ -1,0 +1,6 @@
+<launch>
+  
+  <!--node pkg="tf2_ros" type="static_transform_publisher" name="world_to_camera_init" args="0 0 0 0 0 0 world camera_init 30" /-->
+  
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ego_planner)/launch/default_single.rviz" required="true" />
+</launch>
