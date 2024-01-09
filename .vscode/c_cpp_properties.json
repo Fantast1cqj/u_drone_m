@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/oem/u_drone_m-main/devel/include/**",
+        "/home/oem/ws_livox/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/oem/u_drone_m-main/src/planner/bspline_opt/include/**",
+        "/home/oem/u_drone_m-main/src/planner/drone_detect/include/**",
+        "/home/oem/u_drone_m-main/src/planner/plan_manage/include/**",
+        "/home/oem/u_drone_m-main/src/uav_simulator/mockamap/include/**",
+        "/home/oem/u_drone_m-main/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/oem/u_drone_m-main/src/planner/path_searching/include/**",
+        "/home/oem/u_drone_m-main/src/planner/plan_env/include/**",
+        "/home/oem/u_drone_m-main/src/Point-LIO/include/**",
+        "/home/oem/u_drone_m-main/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/oem/u_drone_m-main/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/oem/u_drone_m-main/src/uav_simulator/so3_control/include/**",
+        "/home/oem/u_drone_m-main/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2_bullet/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2_eigen/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2_geometry_msgs/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2_kdl/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2_msgs/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2_ros/include/**",
+        "/home/oem/u_drone_m-main/src/geometry2/tf2_sensor_msgs/include/**",
+        "/home/oem/u_drone_m-main/src/planner/traj_utils/include/**",
+        "/home/oem/u_drone_m-main/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
