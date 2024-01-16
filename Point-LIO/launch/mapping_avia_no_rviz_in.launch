@@ -1,5 +1,5 @@
 <launch>
-<!-- Launch file for Livox AVIA LiDAR with Inside IMU and without launch RVIZ-->
+<!-- Launch file for Livox AVIA LiDAR with Inside IMU and without launching RVIZ-->
 
 	<arg name="rviz" default="false" />
 

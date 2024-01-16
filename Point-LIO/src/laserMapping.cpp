@@ -1119,7 +1119,7 @@ int main(int argc, char** argv)
                     if (publish_odometry_without_downsample)
                     {
                         /******* Publish odometry *******/
-                        // pub_rate.sleep();
+
                         // publish_odometry(pubOdomAftMapped);
                         
                         count_output = count_output + 1;
@@ -1129,7 +1129,7 @@ int main(int argc, char** argv)
                            count_output = 0;
                         }
                     
-                        // pub_rate.sleep();   // 写一个计数器，计数到多少输出 200 Hz 发布
+                        // 写一个计数器，计数到多少输出 200 Hz 发布
                         if (runtime_pos_log)
                         {
                             state_out = kf_output.x_;
